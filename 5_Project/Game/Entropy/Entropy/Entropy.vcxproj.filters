@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\PCH">
+      <UniqueIdentifier>{01b5d227-b5f0-4ff3-964b-e46e670ac29b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WinMain">
+      <UniqueIdentifier>{562d5d66-d3e2-44d8-90c7-bee928f5e99c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameManager">
+      <UniqueIdentifier>{01c32615-3777-4d11-87fb-458872ef74c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects">
+      <UniqueIdentifier>{2677ccde-a93f-4ba7-b160-bd1623d634b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Weapon">
+      <UniqueIdentifier>{53cb7f3b-2b4a-4eb7-9572-aacb5af47ce6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StateManage">
+      <UniqueIdentifier>{a3e293a3-46d2-4eeb-8c63-89c850784c18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StateManage\TestingPro">
+      <UniqueIdentifier>{d7f31a4b-bf60-465c-a91d-dac8f39e7cf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StateManage\TestingPro\BehaviorTree">
+      <UniqueIdentifier>{407bc985-adc8-4c3e-963e-da41b9ec7249}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StateManage\TestingPro\BehaviorTree\composites">
+      <UniqueIdentifier>{53b5eb67-c070-4612-b70d-164271ef6956}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Player">
+      <UniqueIdentifier>{efdbf681-90a5-49ad-9840-e570fa02ea8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Monster">
+      <UniqueIdentifier>{a902444d-9192-4d16-bf85-9948e6566333}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UIManager">
+      <UniqueIdentifier>{8ecfef8e-136a-45fc-a04a-e3df12486ea1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Contents">
+      <UniqueIdentifier>{62b96bac-9b98-4afc-8c72-d2a76a417a16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameManager\SceneObjectManager">
+      <UniqueIdentifier>{b4261ffa-9048-400d-848e-47ef4db2b25b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Gate">
+      <UniqueIdentifier>{d0d9f434-b7c4-4587-9a9d-ebefd09e18b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Switch">
+      <UniqueIdentifier>{b043139b-61e7-4643-a078-1b8a54d0b585}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StateManage\TestingPro\BTMonster">
+      <UniqueIdentifier>{6495617f-2de0-4115-b851-85d37d25c799}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StateManage\TestingPro\BTMonster\Message">
+      <UniqueIdentifier>{c3bd0371-0529-46aa-8797-1136fc9a67b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StateManage\TestingPro\BTMonster\Monster">
+      <UniqueIdentifier>{c59b299f-6901-495c-9c16-87d4bb63da04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StateManage\TestingPro\BTMonster\MonsterBT">
+      <UniqueIdentifier>{277d6a3a-8560-4d31-a6f2-4619359bd0df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Boss">
+      <UniqueIdentifier>{2640cb06-354b-4dd5-96cb-93e18866c149}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>Source Files\PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="Entropy.h">
+      <Filter>Source Files\WinMain</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Source Files\PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePCH.h">
+      <Filter>Source Files\PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="AppManager.h">
+      <Filter>Source Files\WinMain</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Source Files\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Source Files\GameObjects\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Action.h">
+      <Filter>Source Files\StateManage\TestingPro\BehaviorTree</Filter>
+    </ClInclude>
+    <ClInclude Include="BehaviorTree.h">
+      <Filter>Source Files\StateManage\TestingPro\BehaviorTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Blackboard.h">
+      <Filter>Source Files\StateManage\TestingPro\BehaviorTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Checker.h">
+      <Filter>Source Files\StateManage\TestingPro\BehaviorTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Composite.h">
+      <Filter>Source Files\StateManage\TestingPro\BehaviorTree</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageChecker.h">
+      <Filter>Source Files\StateManage\TestingPro\BehaviorTree</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageIdEnum.h">
+      <Filter>Source Files\StateManage\TestingPro\BehaviorTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Source Files\StateManage\TestingPro\BehaviorTree</Filter>
+    </ClInclude>
+    <ClInclude Include="MemSelector.h">
+      <Filter>Source Files\StateManage\TestingPro\BehaviorTree\composites</Filter>
+    </ClInclude>
+    <ClInclude Include="MemSequence.h">
+      <Filter>Source Files\StateManage\TestingPro\BehaviorTree\composites</Filter>
+    </ClInclude>
+    <ClInclude Include="ParallelSequence.h">
+      <Filter>Source Files\StateManage\TestingPro\BehaviorTree\composites</Filter>
+    </ClInclude>
+    <ClInclude Include="Selector.h">
+      <Filter>Source Files\StateManage\TestingPro\BehaviorTree\composites</Filter>
+    </ClInclude>
+    <ClInclude Include="Sequence.h">
+      <Filter>Source Files\StateManage\TestingPro\BehaviorTree\composites</Filter>
+    </ClInclude>
+    <ClInclude Include="EventMessage.h">
+      <Filter>Source Files\StateManage\TestingPro\BehaviorTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Source Files\GameObjects\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="MovePlayer.h">
+      <Filter>Source Files\GameObjects\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="UIManager.h">
+      <Filter>Source Files\UIManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemData.h">
+      <Filter>Source Files\Contents</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Source Files\GameObjects\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneObjectManager.h">
+      <Filter>Source Files\GameManager\SceneObjectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Switch.h">
+      <Filter>Source Files\GameObjects\Switch</Filter>
+    </ClInclude>
+    <ClInclude Include="Gate.h">
+      <Filter>Source Files\GameObjects\Gate</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageEnum.h">
+      <Filter>Source Files\StateManage\TestingPro\BTMonster\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="BTEventMessage.h">
+      <Filter>Source Files\StateManage\TestingPro\BTMonster\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseMonster.h">
+      <Filter>Source Files\StateManage\TestingPro\BTMonster\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="DetectChecker.h">
+      <Filter>Source Files\StateManage\TestingPro\BTMonster\MonsterBT</Filter>
+    </ClInclude>
+    <ClInclude Include="MeleeAttackChecker.h">
+      <Filter>Source Files\StateManage\TestingPro\BTMonster\MonsterBT</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveAction.h">
+      <Filter>Source Files\StateManage\TestingPro\BTMonster\MonsterBT</Filter>
+    </ClInclude>
+    <ClInclude Include="MeleeAttackAction.h">
+      <Filter>Source Files\StateManage\TestingPro\BTMonster\MonsterBT</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveChecker.h">
+      <Filter>Source Files\StateManage\TestingPro\BTMonster\MonsterBT</Filter>
+    </ClInclude>
+    <ClInclude Include="Leaf.h">
+      <Filter>Source Files\StateManage\TestingPro\BehaviorTree</Filter>
+    </ClInclude>
+    <ClInclude Include="MeleeMonster.h">
+      <Filter>Source Files\StateManage\TestingPro\BTMonster\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="JumpMeleeMonster.h">
+      <Filter>Source Files\StateManage\TestingPro\BTMonster\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="DashMeleeMonster.h">
+      <Filter>Source Files\StateManage\TestingPro\BTMonster\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="RangedMonster.h">
+      <Filter>Source Files\StateManage\TestingPro\BTMonster\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="DashAction.h">
+      <Filter>Source Files\StateManage\TestingPro\BTMonster\MonsterBT</Filter>
+    </ClInclude>
+    <ClInclude Include="TopPlatformChecker.h">
+      <Filter>Source Files\StateManage\TestingPro\BTMonster\MonsterBT</Filter>
+    </ClInclude>
+    <ClInclude Include="JumpAction.h">
+      <Filter>Source Files\StateManage\TestingPro\BTMonster\MonsterBT</Filter>
+    </ClInclude>
+    <ClInclude Include="JumpAttackAction.h">
+      <Filter>Source Files\StateManage\TestingPro\BTMonster\MonsterBT</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceDefines.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>Source Files\GameObjects\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="RangeAttackAction.h">
+      <Filter>Source Files\StateManage\TestingPro\BTMonster\MonsterBT</Filter>
+    </ClInclude>
+    <ClInclude Include="RangeChecker.h">
+      <Filter>Source Files\StateManage\TestingPro\BTMonster\MonsterBT</Filter>
+    </ClInclude>
+    <ClInclude Include="TankBullet.h">
+      <Filter>Source Files\GameObjects\Weapon</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Entropy.cpp">
+      <Filter>Source Files\WinMain</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePCH.cpp">
+      <Filter>Source Files\PCH</Filter>
+    </ClCompile>
+    <ClCompile Include="AppManager.cpp">
+      <Filter>Source Files\WinMain</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Source Files\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Source Files\GameObjects\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="MovePlayer.cpp">
+      <Filter>Source Files\GameObjects\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\GameObjects\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="UIManager.cpp">
+      <Filter>Source Files\UIManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Source Files\GameObjects\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneObjectManager.cpp">
+      <Filter>Source Files\GameManager\SceneObjectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Switch.cpp">
+      <Filter>Source Files\GameObjects\Switch</Filter>
+    </ClCompile>
+    <ClCompile Include="Gate.cpp">
+      <Filter>Source Files\GameObjects\Gate</Filter>
+    </ClCompile>
+    <ClCompile Include="BTEventMessage.cpp">
+      <Filter>Source Files\StateManage\TestingPro\BTMonster\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseMonster.cpp">
+      <Filter>Source Files\StateManage\TestingPro\BTMonster\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="DetectChecker.cpp">
+      <Filter>Source Files\StateManage\TestingPro\BTMonster\MonsterBT</Filter>
+    </ClCompile>
+    <ClCompile Include="MeleeAttackChecker.cpp">
+      <Filter>Source Files\StateManage\TestingPro\BTMonster\MonsterBT</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveAction.cpp">
+      <Filter>Source Files\StateManage\TestingPro\BTMonster\MonsterBT</Filter>
+    </ClCompile>
+    <ClCompile Include="MeleeAttackAction.cpp">
+      <Filter>Source Files\StateManage\TestingPro\BTMonster\MonsterBT</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveChecker.cpp">
+      <Filter>Source Files\StateManage\TestingPro\BTMonster\MonsterBT</Filter>
+    </ClCompile>
+    <ClCompile Include="MeleeMonster.cpp">
+      <Filter>Source Files\StateManage\TestingPro\BTMonster\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="JumpMeleeMonster.cpp">
+      <Filter>Source Files\StateManage\TestingPro\BTMonster\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="DashMeleeMonster.cpp">
+      <Filter>Source Files\StateManage\TestingPro\BTMonster\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="RangedMonster.cpp">
+      <Filter>Source Files\StateManage\TestingPro\BTMonster\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="DashAction.cpp">
+      <Filter>Source Files\StateManage\TestingPro\BTMonster\MonsterBT</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemData.cpp">
+      <Filter>Source Files\Contents</Filter>
+    </ClCompile>
+    <ClCompile Include="TopPlatformChecker.cpp">
+      <Filter>Source Files\StateManage\TestingPro\BTMonster\MonsterBT</Filter>
+    </ClCompile>
+    <ClCompile Include="JumpAction.cpp">
+      <Filter>Source Files\StateManage\TestingPro\BTMonster\MonsterBT</Filter>
+    </ClCompile>
+    <ClCompile Include="JumpAttackAction.cpp">
+      <Filter>Source Files\StateManage\TestingPro\BTMonster\MonsterBT</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>Source Files\GameObjects\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="RangeAttackAction.cpp">
+      <Filter>Source Files\StateManage\TestingPro\BTMonster\MonsterBT</Filter>
+    </ClCompile>
+    <ClCompile Include="RangeChecker.cpp">
+      <Filter>Source Files\StateManage\TestingPro\BTMonster\MonsterBT</Filter>
+    </ClCompile>
+    <ClCompile Include="TankBullet.cpp">
+      <Filter>Source Files\GameObjects\Weapon</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Entropy.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Entropy.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="cursor_1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cursor1.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

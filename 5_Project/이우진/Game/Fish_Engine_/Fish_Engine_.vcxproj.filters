@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="EngineSpector">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="EngineSpector\Graphics">
+      <UniqueIdentifier>{eac0d2d0-72c9-45fc-b283-0c5f9392ed65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineSpector\Input">
+      <UniqueIdentifier>{5c2584ff-b731-4d99-8ab3-cfe9463a346d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="System\PCH_Cascade">
+      <UniqueIdentifier>{d86a08c7-8412-4336-a877-6b20d8446738}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\PCH_Cascade\Define">
+      <UniqueIdentifier>{620bf4d4-023b-4f8d-8559-75d359003a9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\PCH_Cascade\Framework">
+      <UniqueIdentifier>{86fe42eb-d65b-417d-94d5-9fd7cd6339c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\PCH_Cascade\PCH">
+      <UniqueIdentifier>{23d91ebc-70ca-4440-b2a2-460b849e68b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineSpector\Text">
+      <UniqueIdentifier>{a9cb838a-0b38-4d11-842b-4da129c5cc65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineSpector\Text\FText">
+      <UniqueIdentifier>{3f3bb658-0ce1-459f-81b5-feed51b54210}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineSpector\Sound">
+      <UniqueIdentifier>{33bcff71-bcbe-43e2-99ff-95c7ef7cc3e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LibDesription">
+      <UniqueIdentifier>{46629fdc-5308-425b-8a78-51109b217cde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utillity">
+      <UniqueIdentifier>{6a2aea59-1665-4277-af53-c1e1bca0fe24}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>System\PCH_Cascade\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>System\PCH_Cascade\PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>EngineSpector\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="InputClass.h">
+      <Filter>EngineSpector\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="FText.h">
+      <Filter>EngineSpector\Text\FText</Filter>
+    </ClInclude>
+    <ClInclude Include="DLL_Define.h">
+      <Filter>System\PCH_Cascade\Define</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="framework.cpp">
+      <Filter>System\PCH_Cascade\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>System\PCH_Cascade\PCH</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>EngineSpector\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="InputClass.cpp">
+      <Filter>EngineSpector\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="FText.cpp">
+      <Filter>EngineSpector\Text\FText</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="DLL_Disription.txt">
+      <Filter>LibDesription</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint">
+      <Filter>System\PCH_Cascade\Define</Filter>
+    </None>
+  </ItemGroup>
+</Project>

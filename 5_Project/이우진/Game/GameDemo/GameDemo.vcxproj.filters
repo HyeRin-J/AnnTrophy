@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Applications">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="SystemClass">
+      <UniqueIdentifier>{0430bcb0-0959-463e-a9c7-8cd9e62c411d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameManager">
+      <UniqueIdentifier>{78fe6aa5-c6f0-48d8-afdb-cfd4496e3aa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SystemCascade">
+      <UniqueIdentifier>{0604bbfe-ca18-42b8-94d5-10ddd1a66b8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SystemCascade\PCH_Cascade">
+      <UniqueIdentifier>{b55831f7-dfe4-4203-83ca-4b1eed71a627}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SystemCascade\PCH_Cascade\PCH">
+      <UniqueIdentifier>{2914755a-365d-4c4b-ab2b-03c92726a1e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SystemCascade\PCH_Cascade\Framework">
+      <UniqueIdentifier>{89a3d448-6e7d-456a-9b63-684dea1d7491}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SystemCascade\PCH_Cascade\Define">
+      <UniqueIdentifier>{fddfc3c8-aee0-430a-9918-9140b31bebc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SystemCascade\PCH_Cascade\Resources">
+      <UniqueIdentifier>{80a930c8-a5ac-4936-b03b-62e2f008ac42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SystemCascade\PCH_Cascade\Resources\ResourceHeaders">
+      <UniqueIdentifier>{13f18245-397e-48a7-b7f5-479697d7ef65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SystemCascade\PCH_Cascade\Resources\Win32ResourceFiles">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Contents">
+      <UniqueIdentifier>{03586319-3f8d-4b22-b31e-c6f1f0b25318}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\ddd">
+      <UniqueIdentifier>{c6563bd4-eea4-4f50-8e90-676502986376}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>SystemCascade\PCH_Cascade\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>SystemCascade\PCH_Cascade\PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="AppDemo.h">
+      <Filter>Applications</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemClass.h">
+      <Filter>SystemClass</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePch.h">
+      <Filter>SystemCascade\PCH_Cascade\PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>SystemCascade\PCH_Cascade\Resources\ResourceHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadDefine.h">
+      <Filter>SystemCascade\PCH_Cascade\Define</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AppDemo.cpp">
+      <Filter>Applications</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemClass.cpp">
+      <Filter>SystemClass</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePch.cpp">
+      <Filter>SystemCascade\PCH_Cascade\PCH</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>GameManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameDemo.rc">
+      <Filter>SystemCascade\PCH_Cascade\Resources\Win32ResourceFiles</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>SystemCascade\PCH_Cascade\Resources\Win32ResourceFiles</Filter>
+    </Image>
+    <Image Include="GameDemo.ico">
+      <Filter>SystemCascade\PCH_Cascade\Resources\Win32ResourceFiles</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

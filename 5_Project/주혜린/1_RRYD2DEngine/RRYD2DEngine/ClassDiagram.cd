@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="InputManager">
+    <Position X="11.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InputManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RRYD2DEngine">
+    <Position X="13" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUBICAIiAACAQACEAAAAGhAAoAgECADAEQAAggAQwE=</HashCode>
+      <FileName>RRYD2DEngine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ResourceManager">
+    <Position X="14.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAEAAAAAAAAAAAAAAAAAAKAAAAAAAABAA=</HashCode>
+      <FileName>ResourceManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjectManager">
+    <Position X="10" Y="2.75" Width="1.5" />
+    <InheritanceLine Type="SingletonManager&lt;T&gt;" FixedFromPoint="true">
+      <Path>
+        <Point X="13" Y="2.055" />
+        <Point X="13" Y="2.375" />
+        <Point X="10.75" Y="2.375" />
+        <Point X="10.75" Y="2.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>ObjectManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SingletonManager&lt;T&gt;">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>SingletonManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpriteData">
+    <Position X="3.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAgAAACAAAAAgAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>SpriteData.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Object">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAABEAEAAAAAAAAAABAA=</HashCode>
+      <FileName>Object.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameObject">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAAAAIAAAIAAAAAAAABAAAAACAAAAAAAAEAAIAAAA=</HashCode>
+      <FileName>GameObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Builder">
+    <Position X="19.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAEAAAAAAgABAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Builder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjectFactory">
+    <Position X="19.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Builder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjectBuildAlgorithm">
+    <Position X="21.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAABAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>ObjectBuildAlgorithm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameObjectAlogorithm">
+    <Position X="21.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>ObjectBuildAlgorithm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Component">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAIAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Component.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Transform">
+    <Position X="1.75" Y="3.75" Width="1.5" />
+    <InheritanceLine Type="Component" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.5" Y="2.569" />
+        <Point X="5.5" Y="3.375" />
+        <Point X="2.5" Y="3.375" />
+        <Point X="2.5" Y="3.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAEACCAACAAAAAAAAAAEAAAAggAIAAEAgAAAAA=</HashCode>
+      <FileName>Transform.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Animator">
+    <Position X="3.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAUAAEAAEAAQAgAAAAAEAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Animator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RigidBody">
+    <Position X="4.75" Y="3.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="RigidBody::CollisionDetectionMode" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>RigidBody.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQABAAQAIAAQEgAACQBCACFAAICAAQAAAQAAAAAiEE=</HashCode>
+      <FileName>RigidBody.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoundShape">
+    <Position X="7" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEgAAAAAAAAAAAAAAAACAAAwAAAAAAAA=</HashCode>
+      <FileName>BoundShape.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoundRect">
+    <Position X="6.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAABAGIgAAAACAAAIAAAAAAAAAABAAAAAAAAE=</HashCode>
+      <FileName>BoundRect.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoundCircle">
+    <Position X="7.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAgAAAAAIAgAAAAAAAAAAAAAAAAAAAAAAAAiAAAA=</HashCode>
+      <FileName>BoundCircle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="double2">
+    <Position X="23.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Vector.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Vector2">
+    <Position X="23.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAFCBABBAAAEAAAQQBBCAAAAABAgEAgAAAAAEA=</HashCode>
+      <FileName>Vector.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>

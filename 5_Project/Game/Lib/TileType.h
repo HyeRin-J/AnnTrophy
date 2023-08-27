@@ -1,0 +1,8 @@
+#pragma once
+enum class TileType
+{
+	NONE = 0, PLATFORM, FLOOR, SPAWN, GATE, SWITCH, 
+	BEAR_SPAWN, TURTLE_SPAWN, TANK_SPAWN, BIRD_SPAWN,
+	BEAR, TURTLE, TANK, BIRD
+};
+
